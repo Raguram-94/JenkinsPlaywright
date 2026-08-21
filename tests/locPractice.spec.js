@@ -16,5 +16,5 @@ test('locator_Practice', async ({ page }) => {
     await page.getByLabel('Sports').check();
     //await page.locator("//input[@id='hobbies-checkbox-1']").check();
     await page.locator("//textarea[@id='currentAddress']").fill("Bargur");
-
+ console.log("updated by ragu");
 })

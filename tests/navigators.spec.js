@@ -10,3 +10,4 @@ test("navigator", async ({ page }) => {
     await page.reload();
    await page.waitForLoadState("laod");
 })
+//update by ragu
